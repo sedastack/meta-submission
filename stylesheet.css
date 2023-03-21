@@ -1,0 +1,71 @@
+header> img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+body{
+    background-color: rgb(246, 237, 237);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+nav{
+    display:block;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(55, 43, 220);
+
+}
+nav li{
+    display: inline-block;
+    padding: 20px;
+    
+}
+a{
+    color: aliceblue;
+}
+a:hover{
+    background-color: brown;
+}
+section {
+    display: flex;
+    padding: 1rem;
+    
+}
+.promotion{
+    background-image: url(/th1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.b2{
+    flex: 1;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.b2{
+    background-color: bisque;
+}
+footer{
+    display: flex;
+}
+footer div{
+    flex: 1;
+    margin-top: 5rem;
+}
