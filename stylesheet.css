@@ -38,6 +38,7 @@ a{
 }
 a:hover{
     background-color: brown;
+    text-shadow: black;
 }
 section {
     display: flex;
